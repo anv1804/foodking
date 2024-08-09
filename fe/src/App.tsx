@@ -1,11 +1,9 @@
-import Header from "./components/layouts/clients/Header";
+import Routes from "./routes/Routes"
 
 const App = () => {
   return (
-    <div>
-      <Header />
-    </div>
+    <Routes />
   );
-};
+}
 
 export default App;
